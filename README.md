@@ -7,4 +7,3 @@ Este repositorio contiene los códigos relativos a diferentes actividades desarr
 #Clases
 
 [2019_05_24](2019_05_24)
-gcc basico.c -L. -lfun -o basico
