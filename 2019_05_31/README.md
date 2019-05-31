@@ -6,8 +6,9 @@ En la clase de hoy se ejecutarán los programas que se mostraron en los videos. 
 Los siguientes son unos codigos de calentamiento que presenta como usar los 
 archivos de cabecera en proyectos de programacion 
 
-*[entero.h] (entero.h)
-*[principal.c] (principal.c)
+* [entero.h] (entero.h) 
+* [principal.c] (principal.c)
+
 ## cpu.c
 
 ## mem.c
