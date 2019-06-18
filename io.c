@@ -13,5 +13,15 @@ int exists(const char *fname)
     return 0;
 }
 
-void fseek (char archivo,int valor,   )
-{
+ int io (char *archivo){
+  fseek(archivo, 0, SEEK_END) 
+ 
+if  (ftell = ) { 
+} 
+{ 
+
+
+
+
+
+ fprintf(fp,"%d",n);
