@@ -9,10 +9,11 @@ int main(int argc, char** argv) {
     pid = fork();
 
   if (pid == 0) {//proceso hijo 
-    printf("soy el hijo (pid:%d) \n",getpid());
+    wid=wait(NULL);
+    printf("soy el proceso hijo (pid:%d) (pid de espera:%d) \n",getpid,wid());
   } else {//proceso padre 
-    wid=wait(NULL); 
-    printf("soy el padre (pid:%d) (pid de espera:%d) \n",getpid(),wid);
+    
+    printf("soy el proceso padre (pid:%d) ( \n",getpid());
   }
 
   return 0;
