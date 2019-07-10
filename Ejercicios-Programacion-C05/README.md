@@ -1,0 +1,1 @@
+([pregunta1.c])
